@@ -1,0 +1,12 @@
+衣橱日记 — GitHub Pages 部署步骤
+
+1. 访问 https://github.com/new ，创建公开仓库 my-wardrobe。
+2. 打开仓库主页，点击 Add file → Upload files。
+3. 将压缩包解压，把解压后文件夹中的所有文件直接上传到仓库根目录。
+   注意：index.html 一定要在根目录，不能多套一层 wardrobe-app 文件夹。
+4. 点击 Commit changes。
+5. Settings → Pages → Build and deployment → Source 选 Deploy from a branch；Branch 选 main，文件夹选 /(root)，保存。
+6. 等页面显示站点链接后，在 Safari 打开：https://你的用户名.github.io/my-wardrobe/
+7. iPhone Safari → 分享 → 添加到主屏幕。
+
+重要说明：本初版默认是单浏览器本地体验版。衣服与照片只保存在本机浏览器，清缓存可能丢失；请使用“设置与导出”定期备份。不具有 10 人真正独立登录、社区、苹果日历同步或自动通知。多人云端版需要后续配置 Cloudflare 或 Supabase 安全后端。不要把个人照片直接上传至公开 GitHub 仓库。

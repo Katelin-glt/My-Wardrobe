@@ -1,0 +1,21 @@
+{
+  "name": "衣橱日记",
+  "short_name": "衣橱",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f9f7f3",
+  "theme_color": "#f8f2eb",
+  "description": "你的个人天气穿搭电子衣橱",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
